@@ -16,3 +16,4 @@
 | **3** | `landmark-recognition-resnet.ipynb` | 모델 교체 (**SimpleCNN → ResNet-18**) | 87.75% |
 | **4** | `landmark-recognition-lr-opt.ipynb` | **Learning Rate 최적화** (0.001 → 0.0001) | 95.00% |
 | **5** | `landmark-recognition-aug.ipynb` | **Data Augmentation** 추가 및 transforms 최적화 | 96.00% |
+| **6** | `landmark-recognition-ViT.ipynb` | 모델 교체 (**ResNet-18 → Vision Transformer**) 도입, <br> 트랜스포머 확장성 고려하여 **Epoch 확장** (15회) | **96.75%** |
